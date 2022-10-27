@@ -1,0 +1,101 @@
+body {
+  /*padding-top: 50%;*/
+  background-color: #f9f9fb;
+}
+
+/*@media (min-width: 992px) {
+  body {
+    padding-top: 5%;
+  }
+}*/
+
+#pageHeader{
+	background-color: #002145;
+	color: whitesmoke;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+#mainBody{
+	margin-top: 1.5%;
+	text-align: justify;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#authorList a{
+	color: #002145;
+}
+#authorList a:hover{
+	color: #00A7E1;
+}
+
+#githubLink{
+	color: whitesmoke;
+	text-decoration: none;
+	cursor: pointer;
+}
+#githubLink:hover{
+	color: #00A7E1;
+}
+
+li {
+    margin-bottom: 1%;
+}
+
+.footer{
+	margin-top: 2.5%;
+	width: 100%;
+	background-color: #002145;
+	padding: .75%;
+	/*height: 150px;*/
+	color: whitesmoke;
+	font-size: small;
+}
+
+h2{
+	color: #002145;
+}
+
+.portrait{
+	height: 150px;
+	height: 150px;
+	padding-right: 1em;
+	padding-bottom: 2em;
+}
+
+/* author gallery display */
+.photos {
+	display: block;
+  }
+  
+  .photos ul {
+	list-style: none;
+  
+  }
+  
+  .photos ul li {
+	  display: inline;
+	  list-style: none;
+		float: left;
+	  margin: 0 10px 10px 0;
+		padding: 0;
+		text-align:center; 
+	  color: #002145;
+	  padding-right: 2em;
+  }
+  
+  .photos ul li a {
+	display: block;
+	margin-bottom: 10px; 
+	opacity: 1;
+	font-family: Verdana;
+	font-size: 12px;
+	text-decoration: none;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+  }
+  .photos ul li a:hover {
+	opacity: 1.0;
+  }
