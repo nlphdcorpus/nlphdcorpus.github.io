@@ -57,15 +57,15 @@ h2{
 }
 
 .portrait{
-	height: 150px;
-	height: 150px;
+	height: 100px;
+	height: 100px;
 	padding-right: 1em;
 	padding-bottom: 2em;
 }
 
 /* author gallery display */
 .photos {
-	display: block;
+	display: flex;
   }
   
   .photos ul {
